@@ -95,7 +95,6 @@ python emap.py 443 100 results.txt 500
 ## ⚠️ Known Limitations
 
 - Not a full replacement for ZMap  
-- No blacklist filtering (yet)  
 - Threading is not fully optimized  
 - May produce false positives  
 - HTTPS validation may fail on some hosts  
@@ -104,7 +103,7 @@ python emap.py 443 100 results.txt 500
 
 ## 🔮 Planned Features
 
-- 🚫 Deep blacklist filtering (CIDR, reserved IP ranges)  
+- 🚫 Deep blacklist filtering (reserved IP ranges)  
 - ⚡ Performance improvements  
 - 🧩 Modular scanning system  
 - 📊 JSON / CSV output support  
